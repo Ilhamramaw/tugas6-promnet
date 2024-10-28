@@ -1,6 +1,6 @@
 body {
   background: url(https://firebasestorage.googleapis.com/v0/b/sp-dev-e0bd5.appspot.com/o/PROMNET%2F6-1.svg?alt=media&token=9422345f-8a47-44d2-9ec6-50da43d34239);
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .gabung {
@@ -39,7 +39,7 @@ body {
 .tulisan h2 {
   font-size: 40px;
   margin-bottom: 0;
-  line-height: 1.2; 
+  line-height: 1.2;
 }
 
 .tulisan p {
@@ -47,7 +47,7 @@ body {
 }
 
 .status {
-  background-color: yellowgreen;
+  background-color: orange;
   padding: 10px;
   border-radius: 50px;
 }
@@ -62,7 +62,6 @@ button {
 .lanjut {
   text-align: center;
   margin-top: 30px;
-  
 }
 
 .list {
@@ -97,4 +96,18 @@ button {
 
 .daftar li {
   padding-top: 9px;
+}
+
+.foot {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.foot a {
+  margin: 0 5px;
+}
+
+hr {
+  width: 250px;
+  margin-right: 370px;
 }

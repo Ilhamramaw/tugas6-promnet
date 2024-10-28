@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Home</title>
     {% load static %}
     <link rel="stylesheet" href="{% static 'style.css' %}" />
   </head>
@@ -11,7 +11,7 @@
     <header></header>
     <main>
       <div class="lanjut">
-        <h1 class="more">More About Me</h1>
+        <h1 class="more">About Me</h1>
         <div class="list">
           <a href="{% url 'index' %}">Home</a>
           <a href="{% url 'education' %}">Education</a>
@@ -19,6 +19,12 @@
         </div>
       </div>
       {% block body %} {% endblock %}
+      <div class="foot">
+        <h4>Contact Me!</h4>
+        <a href="https://www.linkedin.com/in/ilham-rama-2a511024b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+        <a href="https://www.instagram.com/ilhamrama___?igsh=ODAxbGVicnMzc3E1" target="_blank">Instagram</a>
+        <p>&copy; 2024 Ilham Rama Wijaya.</p>
+      </div>
     </main>
   </body>
 </html>

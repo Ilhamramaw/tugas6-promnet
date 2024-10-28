@@ -24,6 +24,4 @@ urlpatterns = [
     path('education/', views.education, name='education'),
     path('navbar/', views.navbar, name='navbar'),
     path('experience/', views.experience, name='experience'),
-
-
 ]
