@@ -1,0 +1,100 @@
+body {
+  background: url(https://firebasestorage.googleapis.com/v0/b/sp-dev-e0bd5.appspot.com/o/PROMNET%2F6-1.svg?alt=media&token=9422345f-8a47-44d2-9ec6-50da43d34239);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.gabung {
+  display: flex;
+  margin: 40px 100px 0 150px;
+  background-color: antiquewhite;
+  padding: 50px 0 30px 60px;
+  border-radius: 50px;
+}
+
+.bg {
+  margin: 40px 100px 0 150px;
+  background-color: antiquewhite;
+  padding: 50px 0 30px 60px;
+  border-radius: 50px;
+}
+
+.ganteng {
+  border-radius: 100px;
+}
+
+.foto {
+  padding-right: 70px;
+}
+
+.tulisan {
+  padding-right: 100px;
+  margin-top: 0px;
+  text-align: justify;
+}
+
+.tulisan h3 {
+  font-size: 15px;
+}
+
+.tulisan h2 {
+  font-size: 40px;
+  margin-bottom: 0;
+  line-height: 1.2; 
+}
+
+.tulisan p {
+  line-height: 22px;
+}
+
+.status {
+  background-color: yellowgreen;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+button {
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  background-color: orange;
+}
+
+.lanjut {
+  text-align: center;
+  margin-top: 30px;
+  
+}
+
+.list {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.tulisanjudul {
+  text-align: center;
+  padding-right: 80px;
+  padding-bottom: 30px;
+}
+
+.jurusan {
+  text-decoration: underline;
+}
+
+.upi {
+  padding-top: 20px;
+}
+
+.sekolah {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tahun {
+  padding-right: 40px;
+}
+
+.daftar li {
+  padding-top: 9px;
+}
